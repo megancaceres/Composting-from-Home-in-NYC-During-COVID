@@ -1,0 +1,33 @@
+h1 {
+    color: darkgreen
+}
+
+p, span {
+    color: seagreen
+}
+
+body {
+    font-family: lucida;
+    background-color: beige;
+    font-size: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#text {
+    text-align: center;
+}
+
+.item {
+    position: relative;
+}
+
+span {
+    padding-left: 2%;
+    position: absolute;
+}
+
+img {
+    border-width: 5px;
+    border-color: yellowgreen;
+}

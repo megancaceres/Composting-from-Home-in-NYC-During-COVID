@@ -31,3 +31,9 @@ img {
     border-width: 5px;
     border-color: yellowgreen;
 }
+
+#bottom {
+    padding-bottom: 10%;
+    text-align: center;
+    color: seagreen
+}

@@ -1,39 +1,104 @@
 h1 {
-    color: darkgreen
+    color: #006400
 }
 
 p, span {
-    color: seagreen
+    color: #2E8B57
 }
 
 body {
     font-family: lucida;
-    background-color: beige;
+    background-color: #F5F5DC;
+    color: #2E8B57;
     font-size: 16px;
     padding-left: 20%;
     padding-right: 20%;
 }
 
-#text {
+#start, h1 {
     text-align: center;
 }
 
 .item {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.apples {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.apples>div {
+    width: 10%;
+    color: #2E8B57;
+}
+
+.apples>span {
+    width: 85%;
 }
 
 span {
     padding-left: 2%;
-    position: absolute;
 }
 
-img {
+.item-icon {
     border-width: 5px;
-    border-color: yellowgreen;
+    border-color: #9ACD32;
 }
 
 #bottom {
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
-    color: seagreen
+    color: #2E8B57
+}
+
+#compost {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#graph, figcaption {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #9ACD32;
+    color: #000080;
+    border-radius: 2px;
+    text-align: center;
+    border-top: 1px solid #9ACD32;
+    border-bottom: 1px solid #9ACD32;
+}
+
+#mid {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#space {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#move {
+    padding-top: 2%;
+    padding-bottome: 2%;
+}
+
+#other {
+    padding-top: 2%;
+    padding-bottome: 10%;
+}
+
+#caption {
+    padding-top: 10%;
+    padding-bottome: 10%;
 }
